@@ -1,10 +1,12 @@
 .container {
-	width: 960px;
+	width: calc(960 / 1366 * 100%);
 	padding: 15px 10px;
+	min-width: 768px;
+	max-width: 1300px;
 }
 
 .card {
-	width: 428px;
+	width: calc(960 / 1366 * 50% - 50px);
 	padding: 30px 20px;
 	border: 1px solid #d5d4d4;
 	margin-bottom: 20px;
