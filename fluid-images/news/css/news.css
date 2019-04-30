@@ -1,15 +1,16 @@
 .container {
-	width: calc(960 / 1366 * 100%);
+	width: 70.26%;
 	padding: 15px 10px;
 	min-width: 768px;
 	max-width: 1300px;
 }
 
 .card {
-	width: calc(960 / 1366 * 50% - 50px);
+	width: calc(50% - 50px);
 	padding: 30px 20px;
 	border: 1px solid #d5d4d4;
 	margin-bottom: 20px;
+	box-sizing: border-box;
 }
 
 .card:nth-child(even) {
