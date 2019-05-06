@@ -1,6 +1,6 @@
 @media (min-width: 641px) {
   .menu__button {
-    visibility: hidden;
+    display: none;
   }
 
   .title {
