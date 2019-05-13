@@ -1,15 +1,6 @@
-.news__list {
-  display: flex;
-}
-
-@media (max-width:640px) {
-  .news__list {
-    flex-direction: column;
-  }
-}
-
 @media (min-width:641px) {
   .news__list {
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
   }

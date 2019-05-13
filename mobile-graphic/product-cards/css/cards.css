@@ -7,7 +7,6 @@
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
-    justify-content: space-around;
   }
 
   .product:nth-child(3n+2) {
