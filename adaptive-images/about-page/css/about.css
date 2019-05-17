@@ -1,0 +1,21 @@
+@media (min-width: 961px) {
+  .page {
+    display: flex;
+  }
+  
+  .aside {
+    min-width: calc(320em/18);
+    padding-right: calc(40em/18);
+  }
+
+  .content {
+    flex-grow: 1;
+    order: 2;
+  }
+}
+
+@media (max-width: 960px) {
+  .aside__menu {
+    display: none;
+  }
+}
