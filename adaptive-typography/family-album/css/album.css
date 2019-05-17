@@ -4,7 +4,7 @@
   }
 }
 
-@media (min-width: 639px) and (max-width: 1399px) {
+@media (min-width: 641px) and (max-width: 1399px) {
   .home {
     background-image: url("../img/wedding3.jpg");
   }
